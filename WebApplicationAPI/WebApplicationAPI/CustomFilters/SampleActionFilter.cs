@@ -18,7 +18,7 @@ namespace WebApplicationAPI
 
         }
 
-        public void OnActionExecuting(ActionExecutedContext filtercontext)
+        public void OnActionExecuted(ActionExecutedContext context)
         {
             throw new DivideByZeroException();
             // Do something after the action executes.
